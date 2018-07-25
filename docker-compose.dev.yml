@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: dev2
+    image: dev
     container_name: dev
     volumes:
       - $DEV_HOME:/app

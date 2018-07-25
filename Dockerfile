@@ -10,6 +10,7 @@ RUN apt-get install -y python-pip
 RUN pip install --upgrade pip
 
 
+
 ENV TANGO_HOST=databaseds:10000
 
 #Install requirements
